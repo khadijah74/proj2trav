@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* align-items: center; */
+}
+.navbar{
+    background-color: rgb(52, 52, 114);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.scndnav{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.btndiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   padding-bottom: 40px;
+   padding-left: 25px;
+}
+.btndiv button{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color:  rgb(52, 52, 114);
+}
+.divone img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+   
+}
+
+.qns{
+    padding: 10px;
+    background-color: rgb(99, 99, 25);
+    width: 700px;
+    padding-left: 50px  
+}
+.scndbtn{
+    padding: 9px;
+    background-color: rgb(52, 52, 114) ;
+    color: white;
+    border-radius: 5px;
+}
+.qns button{
+    padding: 10px;
+}
+header{
+     background-color: rgb(52, 52, 114); 
+} 
+h3{
+    font-size: 50px;
+}
+
+.divone{
+    border: 1px solid;
+    display: flex;
+    /* width: 400px; */
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+      width: 50%;
+}
+.divone button{
+    background-color: rgb(67, 67, 148);
+    color: white;
+    padding: 15px;
+   border-radius: 5px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    /* /* color: black; */
+}
+.scnddiv{
+    border: 1px solid;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: url('img2.jpeg');
+    width: 50%;
+}
+.scnddiv button{
+     background-color: rgb(67, 67, 148);
+    color: white;
+    padding: 15px;
+   border-radius: 5px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+/* .scnddiv img{
+    width: 200px;
+    object-fit: cover;
+} */
+ .offs{
+    padding-top: 40px;
+    padding-bottom: 5px;
+ }
+ .p2{
+    font-size: 30px;
+    font-weight: bold;
+ }
